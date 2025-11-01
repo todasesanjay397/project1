@@ -22,6 +22,8 @@
 This is our PCOS-ML based project
 
 Team name: Innovators
+Team Member Name: 1.Asmita Sanjay Todase
+                  2.Anushka Hanmant Sonwane
 Frontend: HTML
 Backend: Python, API flask
 MODEL: RANDOM FOREST
