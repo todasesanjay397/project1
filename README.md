@@ -17,3 +17,6 @@
 6. Open `http://127.0.0.1:5000` in browser.
 
 **Note:** This tool is a predictive aid — not a medical diagnosis. Add disclaimer before use.
+
+This is our PCOS-ML based project
+
