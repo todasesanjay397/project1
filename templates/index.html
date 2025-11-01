@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PCOS Predictor</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PCOS Predictor</h1>
+      <p class="subtitle">Random Forest model — enter three hormonal markers to get a quick screening.</p>
+    </header>
+
+    <main>
+      <div class="form-card">
+        <label>Beta-HCG I (mIU/mL)
+          <input id="beta1" type="number" step="any" placeholder="e.g., 1.99">
+        </label>
+
+        <label>Beta-HCG II (mIU/mL)
+          <input id="beta2" type="number" step="any" placeholder="e.g., 1.99">
+        </label>
+
+        <label>AMH (ng/mL)
+          <input id="amh" type="number" step="any" placeholder="e.g., 2.07">
+        </label>
+
+        <button id="predictBtn" class="btn">Predict</button>
+        <div id="output" class="output-area"></div>
+      </div>
+
+      <div class="note-card">
+        <h3>Notes</h3>
+        <ul>
+          <li>This is a screening tool — not a diagnosis.</li>
+          <li>Ensure `rf_model.joblib` and `scaler.joblib` exist in project root (run <code>python train_save.py</code>).</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <small>Built for demo / hackathon. Add clinical validation before real-world use.</small>
+    </footer>
+  </div>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
