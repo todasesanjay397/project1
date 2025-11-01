@@ -1,4 +1,5 @@
-:root{
+:root
+{
   --bg: #f6f8fb;
   --card: #ffffff;
   --accent: #6c5ce7;
@@ -6,7 +7,8 @@
   --success: #12b76a;
   --danger: #ef4444;
 }
-body{ background:var(--bg); font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#111827; margin:0; padding:24px; }
+body
+{ background:var(--bg); font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#111827; margin:0; padding:24px; }
 .container{ max-width:800px; margin:0 auto; }
 header{ text-align:center; margin-bottom:18px; }
 h1{ margin:6px 0; font-size:28px; }
