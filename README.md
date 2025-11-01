@@ -20,3 +20,7 @@
 
 This is our PCOS-ML based project
 
+Team name: Innovators
+Frontend:HTML
+Backend:Python,API flask
+MODEL:RANDOM FOREST
